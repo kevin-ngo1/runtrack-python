@@ -14,6 +14,6 @@ def tri_arrondir(liste):
             if liste[j] < liste[i]:
                 liste[i], liste[j] = liste[j], liste[i]
 
-    print (liste)
+    return liste
 
-tri_arrondir([22.4, 4.0, 16.22, 9.10, 11.00, 12.22, 14.20, 5.20, 17.50])
+print(tri_arrondir([22.4, 4.0, 16.22, 9.10, 11.00, 12.22, 14.20, 5.20, 17.50]))
